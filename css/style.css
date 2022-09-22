@@ -131,6 +131,12 @@ video{
     
 }
 
+.mySlides .paddingz{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
 
 /*Hide the images by default*/
 .mySlides{
@@ -173,7 +179,7 @@ video{
 .column{
     flex: 33.33%;
     padding: 5px;
-    border: 2px solid black;
+
 }
 
 
@@ -349,8 +355,61 @@ video{
     height: 400px;
     position: relative;
     width: 100%;
-    background-color: rgb(34, 116, 98);
+    background-color: rgb(62, 126, 112);
 }
+
+.contacts-section .content .titles p, .contacts p, h2{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.contacts-section .rectangle{
+    height: 10px;
+    width: 70px;
+    background-color: rgb(155, 255, 247);
+}
+
+.contacts-section .content{
+    padding: 50px;
+    padding-left: 80px;
+}
+
+.contacts-section .titles{
+    font-weight: bold;
+}
+
+
+
+.download-resume{
+    height: 400px;
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.download-resume button{
+    font-size: 2em;
+    border: #bbe6da solid 5px;
+}
+
+.download-resume .padding{
+    height: 90%;
+    width: 90%;
+    margin: 20px 30px;
+    background-color: rgba(82, 80, 80, 0.493);
+    border-radius: 30px;
+    border: #659999 solid;
+    text-align: center;
+}
+
+
+.download-resume img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+}
+
 
 
 footer{
