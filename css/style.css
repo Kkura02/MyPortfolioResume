@@ -296,10 +296,26 @@ video{
 
 .skills-section{
     background-color: #bbe6da;
-    height: 500px;
+    height: 650px;
     padding: 10px;
     position: relative;
     width: 100%;
+}
+
+.skillsets .column{
+    text-align: center;
+}
+
+.skillsets .column:hover{
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.skillsets img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 60px;
 }
 
 .skills-content{
@@ -315,8 +331,8 @@ video{
 }
 
 .skillsets .row{
-    margin-bottom: 50px;
-    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .skillsets .column{
     margin: 0 70px 0 70px;
