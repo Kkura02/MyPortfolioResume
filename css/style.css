@@ -344,6 +344,7 @@ video{
     position: relative;
     width: 100%;
     background-color: #bbb;
+    padding: 20px;
 }
 
 .others-section .row .column a img{
