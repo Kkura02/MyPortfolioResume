@@ -1,5 +1,11 @@
 *{box-sizing: border-box;}
 
+/* removes margin around body */
+* {
+  margin: 0;
+  padding: 0;
+} 
+
 .web-container{
     width: 100%;
     height: 100%;
@@ -11,60 +17,59 @@ p,h1,h2,h3,h4{
 
 
 
+
 .container{
     width: 100%;
-    height: 500px;
+    height: 100%;
+    /* display: grid; this centers all its child
+    place-content: center; */
+    border-top: #30393e solid 8px;
+    border-bottom: #30393e solid 2px;
+    background-color: #30393e;
 }
 
-nav{
-    position: relative;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: larger;
-    width:100%;
-    height: 40px;
-}
 
 .topnav img{
-    background-color: #f2f2f2;
-    border-radius: 10px;
     max-width: 100%;
     max-height: 100%;
-    height: 50px;
+    height: 20px;
+
 }
 
 .topnav{
-    background-color: rgb(30, 73, 75);
+    background-color: #adcae1;
     overflow: hidden;
+    height: fit-content;
 }
 
 .topnav a{
     float: left;
-    color: #f2f2f2;
     text-align: center;
-    padding: 10px 9px;
+    padding: 13px 9px;
     text-decoration: none;
 }
 
 .topnav h1{
-    color: white;
+    color: #30393e;
     text-align: center;
     letter-spacing: 3px;
+    
 }
 
 .cert-container{
-    margin: 0 50px;
-    padding: 10px 20px;  
+    margin:5px 120px ;
+    padding: 10px 70px;  
     text-align: center;
-    background-color: rgba(190, 190, 190, 0.63);
+    background-color: #81a4cf;
     border-radius: 20px;
+    border: #30393e solid;
 }
 
 .cert-container img{
     max-width: 100%;
     max-height: 100%;
-    height: 700px;
-    border: black 5px solid;
+    height: 500px;
+    border: #eee1b1 5px solid;
 }
 
 /* Slideshow container */
@@ -88,7 +93,7 @@ nav{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: grey;
+    color: #e9cf97;
     font-weight: bold;
     font-size: 45px;
     transition: 0.6s ease;
@@ -126,14 +131,14 @@ nav{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #f7ecd0;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #e9cf97;
   }
   
   /* Fading animation */

@@ -1,5 +1,10 @@
 *{box-sizing: border-box;}
 
+body {
+    margin: 0;
+    padding: 0;
+  }
+
 body{
     background-color:rgba(255, 255, 255, 0.596);
 }
@@ -20,42 +25,36 @@ p,h1,h2,h3,h4,h6,li{
     height: 100%;
     padding: 20px 5%;
     right: 50px;
-}
-
-nav{
-    position: relative;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: larger;
-    width:100%;
-    height: 40px;
+    background-color: #30393e;
 }
 
 .topnav img{
-    background-color: #f2f2f2;
-    border-radius: 10px;
     max-width: 100%;
     max-height: 100%;
-    height: 50px;
+    height: 20px;
+
 }
 
 .topnav{
-    background-color: rgb(138, 212, 216);
+    background-color: #adcae1;
     overflow: hidden;
+    height: fit-content;
 }
 
 .topnav a{
     float: right;
-    color:#bbb;
     text-align: center;
-    padding: 10px 9px;
+    padding: 13px 9px;
     text-decoration: none;
 }
 
 .topnav h1{
-    color: rgb(0, 0, 0);
+    color: #30393e;
     text-align: center;
     letter-spacing: 3px;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .row{
@@ -73,11 +72,15 @@ nav{
 }
 
 .content-container{
-    padding: 10px;
+    padding: 20px;
     width: 100%;
     height: 100%;
-    background-color: rgba(190, 190, 190, 0.63);
+    background-color: #81a4cf;
     border-radius: 20px;
+}
+
+ul li{
+    margin-left: 25px;
 }
 
 .video-container{
@@ -85,7 +88,8 @@ nav{
     text-align: center;
 }
  .video-container video{
-    background-color: gray;
+    background-color: #30393e;
     border-radius: 20px;
+    border: #30393e solid;
  }
 
