@@ -1,5 +1,6 @@
 *{box-sizing: border-box;}
 
+
 .WebContainer{
     width: 100%;
     height: auto;
@@ -23,10 +24,7 @@ div:first-child{
 
 h1, p, h5, h2, h4, li, h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-video{
-    border: 3px solid red;
+    color:#30393e;
 }
 
 
@@ -61,10 +59,10 @@ video{
 /* Position text in the middle of the page/image */
 .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(223, 213, 213, 0.363); /* Black w/opacity/see-through */
-    color: white;
+    background-color: #f5f4f367; /* Black w/opacity/see-through */
+    color: #30393e;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 3px solid #f7ecd0;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -78,7 +76,7 @@ video{
 
 .reg-img{
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgb(71, 187, 172); /* Black w/opacity/see-through */
+    background-color: #adcae1; /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
     border-radius: 50%;
@@ -89,7 +87,7 @@ video{
     z-index: 2;
     width: auto;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 
 }
@@ -106,13 +104,21 @@ video{
 /*slideshow container*/
 .slideshow-container{
     max-width: 100%;
+    height: 100%;
     position: relative;
 }
 
-.slideshow-container h2, p, h5, h4, ul{
-    color: black;
-    font-size: 1em;
+.infome-container{
+    background-color: #f5f4f3;
+    width: 100%;
+    height: 100%;
 }
+
+.infome-container .slideshow-container  h2, p, h5, h4, ul{
+    color: black;
+    font-size: 1.2em;
+}
+
 
 .padding{
     padding: 20px;
@@ -244,7 +250,7 @@ video{
 
 .icons .column img:hover{
     border-radius: 30%;
-    background-color: rgba(82, 185, 172, 0.5) ;
+    background-color: #adcae1 ;
 }
 
 
@@ -254,7 +260,7 @@ video{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #81a4cf;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -263,7 +269,7 @@ video{
 
 
 .active, .dot:hover , .dot2:hover{
-    background-color: #659999;
+    background-color: #30393e;
 }
 
 /* Fading animation */
@@ -286,7 +292,7 @@ video{
 .rectangle {
     height: 10px;
     width: 70px;
-    background-color: rgb(71, 187, 172);
+    background-color: #81a4cf;
   }
 
 /* SKILLS SECTION */
@@ -295,11 +301,16 @@ video{
 }
 
 .skills-section{
-    background-color: #bbe6da;
-    height: 650px;
+    background-color: #adcae1;
+    height: 100%;
     padding: 10px;
     position: relative;
-    width: 100%;
+    width: auto;
+}
+
+.skills-section .slideshow-container  p{
+    color: black;
+    font-size: 1em;
 }
 
 .skillsets .column{
@@ -308,7 +319,7 @@ video{
 
 .skillsets .column:hover{
     border-radius: 30px;
-    background-color: white;
+    background-color: #f5f4f3;
 
 }
 
@@ -327,7 +338,7 @@ video{
 .skills-content .rectangle{
     height: 10px;
     width: 70px;
-    background-color: rgb(255, 255, 255);
+    background-color: #eee1b1;
 }
 
 .skillsets .row{
@@ -343,7 +354,7 @@ video{
     height: 400px;
     position: relative;
     width: 100%;
-    background-color: #bbb;
+    background-color: #81a4cf;
     padding: 20px;
 }
 
@@ -351,13 +362,15 @@ video{
     max-width: 100%;
     max-height: 100%;
     height: 300px;
+}
 
-   
+.others-section h2{
+    color: #e9cf97;
 }
 
 .others-section .row .column a img:hover{
     border-radius: 10%;
-    background-color: rgba(255, 255, 255, 0.849) ;
+    background-color: #f5f4f3 ;
 }
 
 .others-section .row .column{
@@ -372,11 +385,11 @@ video{
     height: 400px;
     position: relative;
     width: 100%;
-    background-color: rgb(62, 126, 112);
+    background-color: #30393e;
 }
 
 .contacts-section .content .titles p, .contacts p, h2{
-    color: rgb(255, 255, 255);
+    color:#f5f4f3;
 }
 
 
@@ -384,7 +397,7 @@ video{
 .contacts-section .rectangle{
     height: 10px;
     width: 70px;
-    background-color: rgb(155, 255, 247);
+    background-color: #81a4cf;
 }
 
 .contacts-section .content{
@@ -401,23 +414,27 @@ video{
 .download-resume{
     height: 400px;
     position: relative;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    width: auto;
+    background-color: #f5f4f3;
 }
 
 .download-resume button{
     font-size: 2em;
-    border: #bbe6da solid 5px;
+    border: #adcae1 solid 2px;
 }
 
 .download-resume .padding{
     height: 90%;
     width: 90%;
     margin: 20px 30px;
-    background-color: rgba(82, 80, 80, 0.493);
+    background-color: #30393e;
     border-radius: 30px;
-    border: #659999 solid;
+    border: #adcae1 solid;
     text-align: center;
+}
+
+.download-resume a{
+    text-decoration: none;
 }
 
 
@@ -425,13 +442,4 @@ video{
     max-width: 100%;
     max-height: 100%;
     height: 250px;
-}
-
-
-
-footer{
-    height: 210px;
-    position: relative;
-    width: 100%;
-    background-color: #ffff
 }

@@ -56,7 +56,7 @@ nav{
     margin: 0 50px;
     padding: 10px 20px;  
     text-align: center;
-    background-color: rgba(126, 126, 126, 0.596);
+    background-color: rgba(190, 190, 190, 0.63);
     border-radius: 20px;
 }
 
@@ -104,6 +104,7 @@ nav{
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
+    border-radius: 3px 3px 3px 3px;
     background-color: rgba(0,0,0,0.8);
   }
   
